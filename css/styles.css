@@ -1,0 +1,99 @@
+:root{
+    font-family: 'PT Sans', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*Stili header*/
+
+header{
+    background-color: #0080ff;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    margin-bottom: 40px;
+}
+
+header a{
+    color: white;
+}
+
+/*Stili sezione carteinfo*/
+
+#demoCard{
+    min-height: 200px;
+}
+
+.col{
+
+    width: 90%;
+    background-color: #b3e0ff;
+    margin: 20px auto;
+    border-radius: 20px;
+    padding: 10px;
+
+    /*DEBUG*/
+    min-height: 100px;
+    border: 1px dashed black;
+}
+
+
+#demoCard img{
+    width: 100%;
+    margin-bottom: -40px;
+}
+#demoCard a{
+    text-align: center;
+    font-weight: bold;
+    width: 90%;
+    display: block;
+    text-decoration: none;
+    color: white;
+    border-radius: 20px;
+    background-color: #0080ff;
+    margin: 30px 0;
+    padding: 5px 0px;
+    
+
+}
+
+#infoCards .col{
+    padding: 30px;
+    line-height: 30px;
+    color: #4d4d4d;
+}
+
+#infoCards h2{
+    color: #0080ff;
+    margin: 20px 0;
+    text-align: center;
+}
+
+#infoCards i{
+    color: #0080ff;
+    text-align: center;
+    display: block;
+    font-size: 90px;
+}
+
+#demoCard i{
+    color: white;
+    display: inline-block;
+    font-size: 20px;
+}
+
+#infoCards p{
+    text-align: center;
+}
+
+
+#demoCard p{
+    text-align: start;
+}
