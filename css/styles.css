@@ -35,9 +35,6 @@ header a{
     border-radius: 20px;
     padding: 10px;
 
-    /*DEBUG*/
-    min-height: 100px;
-    border: 1px dashed black;
 }
 
 
@@ -326,4 +323,24 @@ footer a{
 
 footer p{
     margin: 30px auto;
+}
+
+
+/*SEZIONE RESPONSIVE 768*/
+
+@media all and (min-width:481px){
+
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #infoCards .col{
+        width: calc((100% / 3));
+    }
+    
+    #infoCards .col:first-child{
+        width: calc((100% / 3)*2);
+    }
+
 }
