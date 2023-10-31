@@ -46,17 +46,16 @@ header a{
 .appstoreA{
     text-align: center;
     font-weight: bold;
-    display: block;
+    display: inline-block;
     text-decoration: none;
     color: white;
     border-radius: 20px;
     margin-top: 30px;
-    padding: 5px 0px;
+    padding: 5px 60px;
 }
 
 .blueA{
     background-color: #0080ff;
-    width: 90%;
 }
 
 #infoCards .col{
@@ -141,7 +140,6 @@ header a{
     margin: 30px 0;
     background-color: #9792e4;
     border-radius: 50px;
-    width: 15%;
     padding: 15px;
 
 }
@@ -153,13 +151,14 @@ header a{
 }
 .cardPlans h2{
     font-style: normal;
+    color: black;
 }
 
 /*Sezione TESTIMONIALS*/
 
 #testimonials h2{
     color: #9792e4;
-    margin: 20px 0;
+    margin: 30px 0;
 }
 
 #testimonials {
@@ -333,14 +332,26 @@ footer p{
     .row{
         display: flex;
         flex-wrap: wrap;
+        gap: 10px;
     }
 
     #infoCards .col{
-        width: calc((100% / 3));
+        width: calc((100% / 3) - 10px);
     }
     
     #infoCards .col:first-child{
-        width: calc((100% / 3)*2);
+        width: calc(((100% / 3) * 2) - 10px);
     }
 
+    #testimonials h2{
+        font-size: 40px;
+    }
+
+    .cardTestimonials{
+        display: flex;
+        gap: 10px;
+    }
+    .cardTestimonials .cardText{
+        text-align: start;
+    }
 }
